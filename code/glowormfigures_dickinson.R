@@ -4,18 +4,14 @@
 #                       Author: Eleanor Dickinson                             #
 #                       Date: November 2023                                   #
 #                                                                             #
-# 1. Summarizing model output.                                                #
-#                                                                             #
-# 3. Calculating host exposure.                                               #
-#                                                                             #
-# 2. Validation code comparing the model output to pasture counts reported by #
-#  Gruner et al., 2008.                                                       #
+# 1. Figure 5                                                                 #
 ###############################################################################
 
+fullrun <- read.csv("modeloutput.csv")
 head(fullrun)
 str(fullrun)
 
-fullrun <- subset(fullrun, rep !=1)
+fullrun <- subset(fullrun, rep !=1) 
 
 ##### Looking at the output ####
 fullrun2 <- fullrun %>% 
