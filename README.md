@@ -2,7 +2,7 @@
 
 Eleanor Dickinson November 2023
 
-This repository contains data and code to reproduce the results presented in a paper by Dickinson et al. submitted to Royal Society Open Science, titled “Host movement dominates the predicted effects of climate change on parasite transmission between wild and domestic mountain ungulates”.
+This repository contains data and code to reproduce the results presented in a paper by Dickinson et al. 2024 published in Royal Society Open Science, titled “Host movement dominates the predicted effects of climate change on parasite transmission between wild and domestic mountain ungulates”. https://doi.org/10.1098/rsos.230469. 
 
 The following folders contain: 
 1. host_elevation
